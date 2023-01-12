@@ -66,13 +66,18 @@ button {
 }
 
 /* =================HEDER================== */
-.header {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+
 .heder-cotainer {
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
   align-items: center;
+}
+
+.portfolio-heder-cotainer {
+  background: #ffffff;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-navigation {
@@ -182,12 +187,11 @@ button {
   border-radius: 4px;
 }
 
-
 .button-list {
   display: flex;
   gap: 24px;
   margin-bottom: 72px;
-justify-content: center;
+  justify-content: center;
 }
 
 .button-link {
@@ -214,7 +218,7 @@ justify-content: center;
   padding-bottom: 120px;
 }
 
-.about-list{
+.about-list {
   display: flex;
   gap: 24px;
 }
@@ -250,17 +254,16 @@ justify-content: center;
   text-align: center;
   padding-top: 32px;
   padding-bottom: 32px;
-  background: #FFFFFF;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* =================GALLERY-WORKS================== */
-.portfolio-container{
-
+.portfolio-container {
   padding-top: 96px;
   padding-bottom: 152px;
-
 }
 
 .gallery-works-list {
@@ -270,17 +273,15 @@ border-radius: 0px 0px 4px 4px;
   row-gap: 48px;
 }
 
-
 .gallery-works-description {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
-  background: #FFFFFF;
-border: 0.5px solid #F4F4FD;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  background: #ffffff;
+  border: 0.5px solid #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-
 
 /* =================FOOTER================== */
 
